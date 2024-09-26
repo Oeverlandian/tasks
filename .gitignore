@@ -1,0 +1,13 @@
+# Ignore Cargo's build artifacts
+/target/
+
+# Ignore Rust's generated files
+**/*.rs.bk
+
+# Ignore editor/IDE-specific files
+*.swp
+*.lock
+*.DS_Store
+
+# Ignore environment files
+.env
